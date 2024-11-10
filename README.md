@@ -18,5 +18,5 @@ This project is a **B2B mechanic subscription and spare parts e-commerce platfor
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/username/spare-parts-store.git
+   git clone https://github.com/yvishwas40/SparesOnline.git
    cd spare-parts-store
