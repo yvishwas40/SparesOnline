@@ -19,7 +19,6 @@ export const Home = () => {
       <TopProduct />
       <Price />
       <Testimonial />
-      <Blog />
     </>
   )
 }

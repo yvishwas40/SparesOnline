@@ -49,7 +49,7 @@ export const ProductItems = ({ cartItems }) => {
             <div className='details'>
               <h3>{items.title}</h3>
               <p>{items.author}</p>
-              <h4>${items.price}</h4>
+              <h4>₹{items.price}</h4>
             </div>
           </div>
         ))}

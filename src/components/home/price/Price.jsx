@@ -6,19 +6,19 @@ export const Price = () => {
   return (
     <>
       <section className='price'>
-        <Heading title='Choose The Plans' desc='Meet our newbies! The latest templates uploaded to the marketplace.' />
+        <Heading title='Go Mechanic' desc='Now Mechanic Friendly Business to make you as our partners!' />
 
         <div className='content'>
           {price.map((item) => (
             <div className='box' key={item.id}>
               <h3>{item.name}</h3>
               <h1>
-                <span>$</span>
+                <span>₹</span>
                 {item.price}
                 <label htmlFor=''>/user per month</label>
               </h1>
               <p>{item.desc}</p>
-              <button className='button'>GET STATRED</button>
+              <button className='button'>Join the family</button>
 
               <ul>
                 {item.list.map((lists) => (

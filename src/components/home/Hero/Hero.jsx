@@ -20,14 +20,14 @@ export const Hero = () => {
         <div className='container'>
           <h1>
             <label>
-              Over <span>6,500</span> Curated Design
+              Over <span>65,000</span> Different items
             </label>
             <br />
             <label>
-              Resources, <span>Graphic & Website </span> Templates
+              Trucks, <span>Cars, Bikes </span> Tractors
             </label>
           </h1>
-          <p>High-quality Design Themes for personal or commercial use contains 6k+ items in 100 categories.</p>
+          <p>For all the services, a onestop solution for all the vehicle spares!</p>
           <div className='search'>
             <span>All Categories</span>
             <hr />
@@ -37,7 +37,7 @@ export const Hero = () => {
             </button>
           </div>
           <SearchItems products={products} value={value} onSearch={onSearch} />
-          <p>Examples: Mockup, PSD, Theme Design, Image…</p>
+          <p>Examples: Bearings, Gears, Engine Spares, …</p>
         </div>
       </section>
     </>
